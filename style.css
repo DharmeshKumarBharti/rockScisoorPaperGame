@@ -1,0 +1,75 @@
+.heading  {
+    /* display: block; */
+    /* font-size: larger; */
+    /* width: 100%;
+    height: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.symbols{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+#rock img{
+    height: 20vh;
+    width: 20vh;
+    border: 2px solid black;
+    border-radius: 50%;
+    
+}
+#rock img:hover ,#scissor img:hover, #paper img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transform: scale(1.01); 
+}
+#scissor img{
+    height: 20vh;
+    width: 20vh;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+#paper img{
+    height: 20vh;
+    width: 20vh;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.playgame{
+    margin-top: 80px;
+    margin-left: 590px;
+    margin-right: 590px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    border: 2px solid black;
+    border-radius: 20%;
+    background-color: brown;
+}
+.playgame:hover{
+    transform: scale(1.01);
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+.score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: x-large;
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
+    /* border: 2px solid black; */
+    background-color: rgb(149, 216, 216);
+}
+/* .compscore{
+
+    padding-left: 10px;
+} */
+
